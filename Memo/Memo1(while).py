@@ -1,5 +1,5 @@
 customer = "토르"
-person = "Unknown"
+person = ()
 
 while person != customer : 
     print("{}님, 커피가 준비 되었습니다.".format(customer))
