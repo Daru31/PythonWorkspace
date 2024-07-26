@@ -8,7 +8,7 @@
  
 def profile(name,age,*language): # 가변인자 *
     print(f'이름: {name}\t나이: {age}', end=" ") 
-    for lang in language: 
+    for lang in language: # for 문 사용해서 출력
         print(lang, end=' ') 
     print()
 
