@@ -1,0 +1,23 @@
+[git checkout]
+git checkout <branch_name> : 존재하는 다른 branch로 이동 
+git checkout -b <branch_name> : 새로운 branch 만든 후 이동 
+
+[git branch]
+git branch -c : branch 복사 
+git branch -d <branch_name> : 로컬 branch 삭제 
+git branch -m <branch_name> <new_branch_name> : branch 이름 바꾸기 
+
+[git commit] 
+git status : 현재 디렉토리의 파일의 변경된 점을 표시 
+git add : 변경된 파일 stage 
+git commit : 커밋(기록) 남기기 
+
+[git -(hyphen)] 
+- : switches (뒤에 한글자 입력) 
+-- : switches (뒤에 여러 글자 입력) 
+-m : message 
+-v : version 
+-h : help 
+-u : upstream 
+-b : branch (새 branch 만들 때)
+-d : delete
