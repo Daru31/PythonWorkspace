@@ -20,4 +20,10 @@ git commit : 커밋(기록) 남기기
 -h : help 
 -u : upstream 
 -b : branch (새 branch 만들 때)
--d : delete
+-d : delete 
+
+How to commit? 
+1) git add . 
+2) git commit -m 'year/month/date(didsmth Filename.txt)' 
+3) git push -u <remote> <branch_name> 
+(In PythonWorkspace Repository, remote = origin, branch_name = master)
