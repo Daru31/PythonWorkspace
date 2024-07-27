@@ -24,6 +24,6 @@ git commit : 커밋(기록) 남기기
 
 How to commit? 
 1) git add . 
-2) git commit -m 'year/month/date(didsmth Filename.txt)' 
+2) git commit -m 'year/month/date(didsmth Filename.extension)'
 3) git push -u <remote> <branch_name> 
 (In PythonWorkspace Repository, remote = origin, branch_name = master)
