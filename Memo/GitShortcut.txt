@@ -11,6 +11,7 @@ git branch -m <branch_name> <new_branch_name> : branch 이름 바꾸기
 git status : 현재 디렉토리의 파일의 변경된 점을 표시 
 git add : 변경된 파일 stage 
 git commit : 커밋(기록) 남기기 
+git remote rm origin  : 레포지토리 remote 해제 
 
 [git -(hyphen)] 
 - : switches (뒤에 한글자 입력) 
