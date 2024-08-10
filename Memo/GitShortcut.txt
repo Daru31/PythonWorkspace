@@ -23,6 +23,9 @@ git remote rm origin  : 레포지토리 remote 해제
 -b : branch (새 branch 만들 때)
 -d : delete 
 
+[git rm]
+git rm -r --cached . : 디렉토리 내의 모든 파일의 cache 삭제 (.gitignore modify 할때 사용)
+
 How to commit? 
 1) git add . 
 2) git commit -m 'year/month/date(didsmth Filename.extension)'
