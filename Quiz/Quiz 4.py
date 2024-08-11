@@ -19,8 +19,14 @@ users = range(1, 21)
 users = list(users)
 
 winners = sample(users, 4)
+# previous :
+# print(" -- 당첨자 발표 -- ")
+# print("치킨 당첨자 : {0}".format(winners[0]))
+# print("커피 당첨자 : {0}".format(winners[1:]))
+# print(" -- 축하합니다 -- ") 
 
-print(" -- 당첨자 발표 -- ")
-print("치킨 당첨자 : {0}".format(winners[0]))
-print("커피 당첨자 : {0}".format(winners[1:]))
-print(" -- 축하합니다 -- ")
+# with f strings (After I learned about 'sorting formatted output' ) :
+print(f"{" 당첨자 발표 ":-^12}") # 반복되는 문자가 이거보다 많을 때 유용할 듯 
+print(f"치킨 당첨자 : {winners[0]}")
+print(f"커피 당첨자 : {winners[1:]}")
+print(f"{" 축하합니다 ":-^11}") 
